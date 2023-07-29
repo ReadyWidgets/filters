@@ -12,6 +12,13 @@ First, clone this repository to your awesome wm config directory:
 git clone https://github.com/ReadyWidgets/filters "${XDG_CONFIG_HOME:-$HOME/.config}/awesome/filters"
 ```
 
+Next, compile `c-filters.c`:
+
+```bash
+cd "${XDG_CONFIG_HOME:-$HOME/.config}/awesome/filters"
+bash build.sh
+```
+
 Then, you can use the filters using something like this:
 
 ```lua
